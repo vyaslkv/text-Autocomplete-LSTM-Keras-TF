@@ -33,5 +33,5 @@ The model we are going to train is single LSTM layer with 128 (taken from a blog
 
 -- Results
 
-![1](https://github.com/vyaslkv/text-Autocomplete-LSTM-Keras-TF/ac1.png)
+![1](https://github.com/vyaslkv/text-Autocomplete-LSTM-Keras-TF/blob/master/ac1.png)
 
