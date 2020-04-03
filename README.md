@@ -31,5 +31,7 @@ For generating our features and labels we will use previously generated sequence
 
 The model we are going to train is single LSTM layer with 128 (taken from a blog), which accepts the size of -- 40 the length of the sequence and x the number of unique characters in our in our dataset. A fully connected layer is added after that (for our output), which has x (same as the number of unique characters) and softmax for our activation function. We are training our model for 20 epochs using RMSProp optimizer and uses 5% of our training dataset for validation.
 
+-- Results
 
+![1](https://github.com/vyaslkv/text-Autocomplete-LSTM-Keras-TF/ac1.png)
 
