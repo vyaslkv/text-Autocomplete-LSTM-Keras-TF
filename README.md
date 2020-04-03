@@ -21,7 +21,7 @@ LSTM --
 
 LSTM model is a special kind of RNN, which can learn long-term dependencies. It has different structure than RNNs, the memory cell composed of four elements, input, forget and output gate & a neuron that connects to itself.
 
-![LSTM](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FRNN-simple-cell-versus-LSTM-cell-4_fig2_317954962&psig=AOvVaw0KUkZTPN9iBUANu4zX7cNv&ust=1586025798953000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLjD-Nz0zOgCFQAAAAAdAAAAABAD)
+![LSTM](https://miro.medium.com/max/1212/1*ZskkUQCNT0i_00shHYSj1A.png)
 
 Here, we will use english NCERT as a training corpus for our model. Thing we need to make -- character to index and intex to character mapping in this. And we cut our corpus into chunks of let's say 40 characters and we will also store the character that is the one we need to predict for every sequence. 
 
